@@ -1,0 +1,18 @@
+.c-link {
+
+	&-under {
+
+		&:hover {
+			text-decoration: none;
+		}
+
+	}
+
+	&:hover,
+	&-under {
+		text-decoration: underline;
+	}
+
+
+
+}

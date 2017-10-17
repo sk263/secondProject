@@ -5,6 +5,11 @@
 		text-decoration: none;
 		color: $black;
 		
+		a:focus{
+			text-decoration: none;
+			color: $black;
+		}
+
 		&_header {
 			position: relative;
 			background-repeat: no-repeat;

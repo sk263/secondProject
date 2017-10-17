@@ -1,0 +1,32 @@
+.o-infoContact {
+	width: 240px;
+
+	@include md-down {
+		margin: 0 auto;
+	}
+
+	&_item {
+		display: flex;
+		justify-content: space-between;
+
+		@include md-down {
+			padding-left: 0;
+			text-align: right;
+
+			span {
+				width: 53px;
+			}	
+
+		}
+
+		a {
+			display: inline-block;
+			min-width: 170px;
+
+			@include md-down {
+				padding-left: 8px;
+				text-align: left;
+			}
+		}
+	}
+}

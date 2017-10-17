@@ -1,15 +1,33 @@
-.display-inline-then-block {
-	position: relative;
-	padding:0 5px;
+.c-footer_links	{
 
-}
+	&_policy {
+		display: inline;
+		position: relative;
+		padding: 0 5px;
 
-.display-inline-then-block + .display-inline-then-block {
-	@include sm-up{
-		&:before {
-			content: "/";
-			position: absolute;
-			left: -5px;
+		@include md-down {
+			display: block;
+		}
+
+	}
+
+
+	&_policy + &_policy {
+
+		@include sm-up 	{
+			&:before {
+				content: "/";
+				position: absolute;
+				left: -5px;
+			}
+		}
+
+	}
+	
+	&_hexis {
+		opacity: 0.6;
+		&:hover {
+			opacity: 0.9;
 		}
 	}
 }

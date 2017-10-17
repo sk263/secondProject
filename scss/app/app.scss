@@ -25,6 +25,7 @@
 	03_base
 */
 @import "03_base/b-ul";
+@import "03_base/b-footer";
 @import "03_base/b-a";
 
 /*
@@ -32,16 +33,18 @@
 */
 @import "04_components/c-btn";
 @import "04_components/c-form";
+@import "04_components/c-link";
 @import "04_components/c-footer-icon";
 @import "04_components/c-footer_links";
 @import "04_components/c-title";
 @import "04_components/c-topbar-icon";
+
 /*
 	05_objects
 */
 @import "05_objects/o-deals";
-@import "05_objects/o-footer";
 @import "05_objects/o-gallery";
+@import "05_objects/o-infoContact";
 @import "05_objects/o-mainHeader";
 @import "05_objects/o-mobileMenu";
 @import "05_objects/o-navbar";
@@ -57,11 +60,13 @@
 	07_trumps
 */
 @import "07_trumps/t-bg-colors";
+@import "07_trumps/t-bg-img";
 @import "07_trumps/t-borders";
 @import "07_trumps/t-center-w";
 @import "07_trumps/t-color";
 @import "07_trumps/t-display";
 @import "07_trumps/t-links";
+@import "07_trumps/t-round";
 
 /*
 	08_vendors

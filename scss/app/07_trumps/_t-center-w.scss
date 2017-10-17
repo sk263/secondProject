@@ -1,10 +1,10 @@
-.sm-text-center {
+.sm-down-text-center {
 	@include md-down {
 		text-align: center;
 	}
 }
 
-.sm-w-100 {
+.sm-down-w-100 {
 	@include md-down {
 		width: 100%;
 	}
