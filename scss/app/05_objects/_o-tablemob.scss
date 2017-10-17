@@ -1,0 +1,22 @@
+.o-tbl {
+	@include md-down {
+		header &_blr {
+			border-left: 1px solid $brightgray;
+			border-right: 1px solid $brightgray;	
+		}
+		header &_bt {
+			border-top: 1px solid $brightgray;
+		}
+
+		&_cell {
+			width: 33.33%;
+		}
+	}
+
+
+	@include sm-up {
+		&_br {
+			border-right: 1px solid $brightgray;
+		}	
+	}
+}

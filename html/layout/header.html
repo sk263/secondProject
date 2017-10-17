@@ -1,3 +1,284 @@
-<header>
-	Header
+<header class="o-mainHeader">
+
+	<h1 class="sr-only">My first project</h1>
+
+	<div class="o-mainHeader_top">
+		<div class="container-fluid">
+			
+			<div class="row"> 
+
+				<!-- NAVIGATION AND LOGO -->
+				<div class="col-8 col-md-12 flex-md-last p-0  bgc-white">
+
+					<div class="o-navbar p-md-2">
+
+						<div class="container">
+
+							<div class="row">
+
+								<div class="col-12 d-flex justify-content-between justify-content-md-between p-1">
+
+									<img class="o-navbar-logo m-2" src="media/logo.png" alt="logo">
+									
+									
+									<nav class="o-nav" data-mobile-menu-item="menu">
+										
+										<h1 class="sr-only">Main navigation</h1>
+
+										<ul>
+											<li class="p-3"><a href="#">Link 1</a></li>
+											<li class="p-3 p-md-2 o-navbar-dropdown">
+
+												<a href="#">Link 2 </a> 
+
+												
+												<i class="fa fa-caret-down hidden-sm-down" aria-hidden="true"></i>
+												
+												<input class="o-welcome_check" type="checkbox" id="navdropdown">
+												<label class="o-navbar_label hidden-sm-up" for="navdropdown" onclick><i class="fa fa-caret-down o-navbar_arrowDown" aria-hidden="true"></i>
+												<i class="fa fa-caret-up o-navbar_arrowUp" aria-hidden="true">
+
+												</i>
+											</label>
+											<ul>
+												<a href="#"><li>Link 1</li></a>
+												<a href="#"><li>Link 2</li></a>
+											</ul>
+
+										</li>
+										<li class="p-3 p-md-2"><a href="#">Link 3</a></li>
+										<li class="p-3 p-md-2"><a href="#">Link 4</a></li>
+										<li class="p-3 p-md-2"><a href="#">Link 5</a></li>
+									</ul>	
+								</nav>
+
+							</div>		
+
+						</div>
+
+					</div>	
+
+				</div>
+
+			</div>
+
+			<!-- TOP BAR -->
+			<div class="col-4 col-md-12 flex-md-first bgc-brightgray p-0">
+
+				<div class="o-topbar">
+
+					<div class="container">
+
+						<div class="row">
+							<div class="col-12 d-flex justify-content-md-between justify-content-center p-1">
+
+								<div class="o-topbar-info d-flex align-items-center">
+
+									<div class="d-inline-flex justify-content-center pt-3 pb-3 p-md-0">
+
+										<a href="tel:123456789">
+											<img class="c-topbar-icon mr-1" src="../media/icon_phone.png" alt="">
+											<span class="hidden-sm-down">123456789</span>
+										</a>
+
+										<a href="mailto:info@mare-vrbnik.com">
+											<img class="c-topbar-icon ml-2 mr-1" src="../media/icon_mail.png" alt="">
+											<span class="hidden-sm-down">info@mare-vrbnik.com</span>
+										</a>
+
+									</div>
+								</div>
+
+								<div class="d-lg-flex justify-content-center align-items-center o-topbar-lan">
+
+									<div class="o-topbar_lan" data-mobile-menu-item="language">
+										<ul>
+											<li class="o-topbar_lanbtn p-3 p-md-0">
+												<i class="fa fa-globe hidden-sm-down" aria-hidden="true"></i>
+												English
+											</li>
+											<div class="o-topbar_lancontainer">
+												<li><a href="#">Jezik 1</a></li>
+												<li><a href="#">Jezik 2</a></li>
+												<li><a href="#">Jezik 3</a></li>
+											</div>
+										</ul>
+									</div>
+
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div class="row o-tbl_bt">
+
+			<!-- MOBILNI MENI -->
+			<div class="col-12 text-center p-0">
+
+				<div class="o-mobileMenu d-table hidden-md-up align-middle w-100">
+
+					<div class="o-mobileMenu_item d-table-cell o-tbl_cell p-1" data-mobile-menu-trigger="menu">
+						<div>
+							<i class="fa fa-bars" aria-hidden="true"></i><br>Menu
+						</div>
+					</div>
+
+					<div class="o-mobileMenu_item d-table-cell o-tbl_cell o-tbl_blr p-1" data-mobile-menu-trigger="language">
+						<div>
+							<i class="fa fa-globe" aria-hidden="true"></i><br>Language
+						</div>
+					</div>
+
+					<div class="o-mobileMenu_item d-table-cell o-tbl_cell p-1" data-mobile-menu-trigger="search">
+						<div>
+							<i class="fa fa-search" aria-hidden="true"></i><br>Search
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+<!-- Slider main container -->
+<div class="swiper-container" data-swiper>
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+		<!-- Slides -->
+		<div class="swiper-slide" style="background-image: url('../media/swiper_slide1.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div class="d-flex justify-content-center justify-content-md-end">
+							<div class="o-swiper-item p-2">
+								<h3>Lorem ipsum dolor sit amett.</h3>
+								<p>Proin tincidunt tortor non tortor viverra, at imperdiet ante pulvinar. Suspendisse volutpat ultricies lacus, eu vehicula tellus mollis id.</p>
+								<button type="button" class="btn btn-primary d-block m-2 mx-auto">View Accommodations</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide" style="background-image: url('../media/swiper_slide2.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div class="d-flex justify-content-center justify-content-md-end">
+							<div class="o-swiper-item p-2">
+								<h3>Lorem ipsum dolor sit amett.</h3>
+								<p>Proin tincidunt tortor non tortor viverra, at imperdiet ante pulvinar. Suspendisse volutpat ultricies lacus, eu vehicula tellus mollis id.</p>
+								<button type="button" class="btn btn-primary d-block m-2 mx-auto">Other stuff</button>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide" style="background-image: url('../media/swiper_slide3.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div class="d-flex justify-content-center justify-content-md-end">
+							<div class="o-swiper-item p-2">
+								<h3>Lorem ipsum dolor sit amett.</h3>
+								<p>Proin tincidunt tortor non tortor viverra, at imperdiet ante pulvinar. Suspendisse volutpat ultricies lacus, eu vehicula tellus mollis id.</p>
+								<button type="button" class="btn btn-primary d-block m-2 mx-auto">Third stuff</button>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev hidden-md-down"></div>
+	<div class="swiper-button-next hidden-md-down"></div>
+
+</div>
+
+
+<div class="o-search" data-mobile-menu-item="search">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+
+				<form action="">
+					<ul class="o-search_list d-flex align-items-center p-4 my-2">
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="location">Location</label>
+								<select id="location" class="form-control">
+									<option>Large select</option>
+								</select>
+							</div>
+						</li>
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="checkin">CheckIn</label>
+								<input id="checkin" class="form-control" type="text" placeholder="CheckIn">
+							</div>
+						</li>
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="checkout">Checkout</label>
+								<input id="checkout" class="form-control" type="text" placeholder="CheckOut">
+							</div>
+						</li>
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="guestnum">GuestNum</label>
+								<select id="guestnum" class="form-control">
+									<option>1 Guest</option>
+								</select>
+							</div>
+						</li>
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="search">search</label>
+								<button id="search" class="btn c-btn_secondary btn-block" type="button">Search</button>
+							</div>
+						</li>
+
+					</ul>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
 </header>

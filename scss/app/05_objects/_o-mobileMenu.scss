@@ -1,0 +1,9 @@
+.o-mobileMenu {
+	&_item{
+		border-bottom: 2px solid $white;
+	}
+	&_item.active-mobile {
+		border-bottom: 2px solid $green;
+	}
+
+}

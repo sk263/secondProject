@@ -1,0 +1,8 @@
+.bb {
+
+	border-bottom: 1px solid $brightgray;
+	
+	@include md-down {
+			padding: 2rem 0; 
+	}
+}

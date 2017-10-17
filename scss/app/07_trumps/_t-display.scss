@@ -1,0 +1,8 @@
+.display-inline-then-block {
+	display: inline-block;
+
+	@include md-down {
+		display: block;
+		float: none !important;
+	}
+}

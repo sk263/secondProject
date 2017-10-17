@@ -13,8 +13,13 @@ var gulp = require('gulp'),
 
 var jsPaths = [
   'node_modules/jquery/dist/jquery.js',
+  'node_modules/jquery-ui/date-picker/jquery-ui.js',
   'node_modules/tether/dist/js/tether.js',
-  'node_modules/bootstrap/dist/js/bootstrap.js'
+  'node_modules/bootstrap/dist/js/bootstrap.js',
+  'node_modules/swiper/dist/js/swiper.js',
+  'node_modules/lightgallery/src/js/lightgallery.js',
+  'js/app/**/*.js'
+
 ];
 
 // Compile sass into CSS & auto-inject into browsers
@@ -66,7 +71,7 @@ gulp.task('serve', ['sass' , 'build'], function() {
     index: "./html-build/index.html"
   });
 
-  gulp.watch("scss/**/*.scss", ['sass']);
+  gulp.watch("scss/app/**/*.scss", ['sass']);
   gulp.watch("html/**/*.html", ['build']);
   gulp.watch("js/app/**/*.js", ['concat' , 'compress']);
 });

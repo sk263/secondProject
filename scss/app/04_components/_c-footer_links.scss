@@ -1,0 +1,15 @@
+.display-inline-then-block {
+	position: relative;
+	padding:0 5px;
+
+}
+
+.display-inline-then-block + .display-inline-then-block {
+	@include sm-up{
+		&:before {
+			content: "/";
+			position: absolute;
+			left: -5px;
+		}
+	}
+}

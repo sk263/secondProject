@@ -1,0 +1,32 @@
+.o-deals{
+
+
+	&_itemCard {
+		text-decoration: none;
+		color: $black;
+		
+		&_header {
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover; 
+		}
+
+		&_price {
+			position: absolute;
+			bottom: 0;
+
+			h5 {
+				margin: 0;
+			}
+		}
+
+		&_info {
+			border-bottom: 2px solid $brightgray;
+
+			&Cell {
+				width: 25%;
+				opacity:0.9;
+			}
+		}
+	}
+}

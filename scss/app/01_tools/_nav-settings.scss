@@ -1,0 +1,25 @@
+%nav-settings{
+	display: none;
+	visibility: hidden;
+	text-align: center;
+	background-color: $white;
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		ul {
+			display: none;
+			visibility: hidden;
+		}
+	}
+}
+
+%nav-show{
+	position: absolute;
+	top: 4rem;
+	left: 0;
+	width: 100%;
+	display: block;
+	visibility: visible;
+}

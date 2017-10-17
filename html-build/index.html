@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/app.css">
 	<title>secondProject</title>
 </head>
@@ -9,19 +12,1061 @@
 	
 	
 
-<header>
-	Header
+<header class="o-mainHeader">
+
+	<h1 class="sr-only">My first project</h1>
+
+	<div class="o-mainHeader_top">
+		<div class="container-fluid">
+			
+			<div class="row"> 
+
+				<!-- NAVIGATION AND LOGO -->
+				<div class="col-8 col-md-12 flex-md-last p-0  bgc-white">
+
+					<div class="o-navbar p-md-2">
+
+						<div class="container">
+
+							<div class="row">
+
+								<div class="col-12 d-flex justify-content-between justify-content-md-between p-1">
+
+									<img class="o-navbar-logo m-2" src="media/logo.png" alt="logo">
+									
+									
+									<nav class="o-nav" data-mobile-menu-item="menu">
+										
+										<h1 class="sr-only">Main navigation</h1>
+
+										<ul>
+											<li class="p-3"><a href="#">Link 1</a></li>
+											<li class="p-3 p-md-2 o-navbar-dropdown">
+
+												<a href="#">Link 2 </a> 
+
+												
+												<i class="fa fa-caret-down hidden-sm-down" aria-hidden="true"></i>
+												
+												<input class="o-welcome_check" type="checkbox" id="navdropdown">
+												<label class="o-navbar_label hidden-sm-up" for="navdropdown" onclick><i class="fa fa-caret-down o-navbar_arrowDown" aria-hidden="true"></i>
+												<i class="fa fa-caret-up o-navbar_arrowUp" aria-hidden="true">
+
+												</i>
+											</label>
+											<ul>
+												<a href="#"><li>Link 1</li></a>
+												<a href="#"><li>Link 2</li></a>
+											</ul>
+
+										</li>
+										<li class="p-3 p-md-2"><a href="#">Link 3</a></li>
+										<li class="p-3 p-md-2"><a href="#">Link 4</a></li>
+										<li class="p-3 p-md-2"><a href="#">Link 5</a></li>
+									</ul>	
+								</nav>
+
+							</div>		
+
+						</div>
+
+					</div>	
+
+				</div>
+
+			</div>
+
+			<!-- TOP BAR -->
+			<div class="col-4 col-md-12 flex-md-first bgc-brightgray p-0">
+
+				<div class="o-topbar">
+
+					<div class="container">
+
+						<div class="row">
+							<div class="col-12 d-flex justify-content-md-between justify-content-center p-1">
+
+								<div class="o-topbar-info d-flex align-items-center">
+
+									<div class="d-inline-flex justify-content-center pt-3 pb-3 p-md-0">
+
+										<a href="tel:123456789">
+											<img class="c-topbar-icon mr-1" src="../media/icon_phone.png" alt="">
+											<span class="hidden-sm-down">123456789</span>
+										</a>
+
+										<a href="mailto:info@mare-vrbnik.com">
+											<img class="c-topbar-icon ml-2 mr-1" src="../media/icon_mail.png" alt="">
+											<span class="hidden-sm-down">info@mare-vrbnik.com</span>
+										</a>
+
+									</div>
+								</div>
+
+								<div class="d-lg-flex justify-content-center align-items-center o-topbar-lan">
+
+									<div class="o-topbar_lan" data-mobile-menu-item="language">
+										<ul>
+											<li class="o-topbar_lanbtn p-3 p-md-0">
+												<i class="fa fa-globe hidden-sm-down" aria-hidden="true"></i>
+												English
+											</li>
+											<div class="o-topbar_lancontainer">
+												<li><a href="#">Jezik 1</a></li>
+												<li><a href="#">Jezik 2</a></li>
+												<li><a href="#">Jezik 3</a></li>
+											</div>
+										</ul>
+									</div>
+
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div class="row o-tbl_bt">
+
+			<!-- MOBILNI MENI -->
+			<div class="col-12 text-center p-0">
+
+				<div class="o-mobileMenu d-table hidden-md-up align-middle w-100">
+
+					<div class="o-mobileMenu_item d-table-cell o-tbl_cell p-1" data-mobile-menu-trigger="menu">
+						<div>
+							<i class="fa fa-bars" aria-hidden="true"></i><br>Menu
+						</div>
+					</div>
+
+					<div class="o-mobileMenu_item d-table-cell o-tbl_cell o-tbl_blr p-1" data-mobile-menu-trigger="language">
+						<div>
+							<i class="fa fa-globe" aria-hidden="true"></i><br>Language
+						</div>
+					</div>
+
+					<div class="o-mobileMenu_item d-table-cell o-tbl_cell p-1" data-mobile-menu-trigger="search">
+						<div>
+							<i class="fa fa-search" aria-hidden="true"></i><br>Search
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+<!-- Slider main container -->
+<div class="swiper-container" data-swiper>
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+		<!-- Slides -->
+		<div class="swiper-slide" style="background-image: url('../media/swiper_slide1.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div class="d-flex justify-content-center justify-content-md-end">
+							<div class="o-swiper-item p-2">
+								<h3>Lorem ipsum dolor sit amett.</h3>
+								<p>Proin tincidunt tortor non tortor viverra, at imperdiet ante pulvinar. Suspendisse volutpat ultricies lacus, eu vehicula tellus mollis id.</p>
+								<button type="button" class="btn btn-primary d-block m-2 mx-auto">View Accommodations</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide" style="background-image: url('../media/swiper_slide2.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div class="d-flex justify-content-center justify-content-md-end">
+							<div class="o-swiper-item p-2">
+								<h3>Lorem ipsum dolor sit amett.</h3>
+								<p>Proin tincidunt tortor non tortor viverra, at imperdiet ante pulvinar. Suspendisse volutpat ultricies lacus, eu vehicula tellus mollis id.</p>
+								<button type="button" class="btn btn-primary d-block m-2 mx-auto">Other stuff</button>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide" style="background-image: url('../media/swiper_slide3.jpg'); background-repeat: no-repeat; background-size: cover;">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div class="d-flex justify-content-center justify-content-md-end">
+							<div class="o-swiper-item p-2">
+								<h3>Lorem ipsum dolor sit amett.</h3>
+								<p>Proin tincidunt tortor non tortor viverra, at imperdiet ante pulvinar. Suspendisse volutpat ultricies lacus, eu vehicula tellus mollis id.</p>
+								<button type="button" class="btn btn-primary d-block m-2 mx-auto">Third stuff</button>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev hidden-md-down"></div>
+	<div class="swiper-button-next hidden-md-down"></div>
+
+</div>
+
+
+<div class="o-search" data-mobile-menu-item="search">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+
+				<form action="">
+					<ul class="o-search_list d-flex align-items-center p-4 my-2">
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="location">Location</label>
+								<select id="location" class="form-control">
+									<option>Large select</option>
+								</select>
+							</div>
+						</li>
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="checkin">CheckIn</label>
+								<input id="checkin" class="form-control" type="text" placeholder="CheckIn">
+							</div>
+						</li>
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="checkout">Checkout</label>
+								<input id="checkout" class="form-control" type="text" placeholder="CheckOut">
+							</div>
+						</li>
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="guestnum">GuestNum</label>
+								<select id="guestnum" class="form-control">
+									<option>1 Guest</option>
+								</select>
+							</div>
+						</li>
+
+						<li class="o-search_item">
+							<div class="form-group">
+								<label class="sr-only" for="search">search</label>
+								<button id="search" class="btn c-btn_secondary btn-block" type="button">Search</button>
+							</div>
+						</li>
+
+					</ul>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
 </header>	
 
 <main>
-	Hompepage content
+
+	<section class="bg-lightblue2 py-5">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-12 text-center">
+					<h1>Hot deals</h1>
+					<p>Fast selling, top accommmodations</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+
+				<!-- Apartman Card START -->
+				<div class="col-sm-6 col-lg-3">
+					
+					<article class="o-deals_itemCard mt-4">
+						<a href="">
+							<div class="o-deals_itemCard_header d-flex justify-content-center">
+								<img class="w-100" src="http://via.placeholder.com/250x200" alt="">	
+								<div class="o-deals_itemCard_price rounded-top p-2 bg-lightblue">
+									<strong>For 544656 $</strong>
+								</div>
+
+							</div>
+
+							<div class="o-deals_itemCard_footer text-center bg-white">
+								<h1 class="p-3 c-title-sm">Apartment 1</h1>
+
+								<div class="o-deals_itemCard_info d-table w-100 text-center pb-2">
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Persons">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<br>
+										2-4			
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from the beach">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<br>
+										300m
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from town">
+										<i class="fa fa-bullseye" aria-hidden="true"></i>
+										<br>
+										2km	
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Ratings">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<br>
+										4.5		
+									</div>
+								</div>
+
+								<div class="o-deals_itemCard_moreInfo d-flex justify-content-center p-2">
+
+									<i class="fa fa-wifi mr-2" data-toggle="tooltip" data-placement="bottom" title="WI-FI"></i>
+									<i class="fa fa-car mr-2" data-toggle="tooltip" data-placement="bottom" title="Parking"></i>
+									<i class="fa fa-paw mr-2" data-toggle="tooltip" data-placement="bottom" title="Allowed pets"></i>
+									<i class="fa fa-shower mr-2" data-toggle="tooltip" data-placement="bottom" title="Bathroom"></i>
+									<i class="fa fa-television mr-2" data-toggle="tooltip" data-placement="bottom" title="Television"></i>
+									<i class="fa fa-thermometer-quarter mr-2" data-toggle="tooltip" data-placement="bottom" title="AC"></i>
+									<i class="fa fa-coffee mr-2" data-toggle="tooltip" data-placement="bottom" title="Coffe maker"></i>
+
+								</div>
+
+							</div>
+						</a>
+					</article>
+
+				</div>
+				<!-- Apartman Card STOP -->
+
+
+				<!-- Apartman Card START -->
+				<div class="col-sm-6 col-lg-3">
+					
+					<article class="o-deals_itemCard mt-4">
+						<a href="">
+							<div class="o-deals_itemCard_header d-flex justify-content-center">
+								<img class="w-100" src="http://via.placeholder.com/250x200" alt="">	
+								<div class="o-deals_itemCard_price rounded-top p-2 bg-lightblue">
+									<strong>For 544656 $</strong>
+								</div>
+
+							</div>
+
+							<div class="o-deals_itemCard_footer text-center bg-white">
+								<h1 class="p-3 c-title-sm">Apartment 1</h1>
+
+								<div class="o-deals_itemCard_info d-table w-100 text-center pb-2">
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Persons">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<br>
+										2-4			
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from the beach">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<br>
+										300m
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from town">
+										<i class="fa fa-bullseye" aria-hidden="true"></i>
+										<br>
+										2km	
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Ratings">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<br>
+										4.5		
+									</div>
+								</div>
+
+								<div class="o-deals_itemCard_moreInfo d-flex justify-content-center p-2">
+
+									<i class="fa fa-wifi mr-2" data-toggle="tooltip" data-placement="bottom" title="WI-FI"></i>
+									<i class="fa fa-car mr-2" data-toggle="tooltip" data-placement="bottom" title="Parking"></i>
+									<i class="fa fa-paw mr-2" data-toggle="tooltip" data-placement="bottom" title="Allowed pets"></i>
+									<i class="fa fa-shower mr-2" data-toggle="tooltip" data-placement="bottom" title="Bathroom"></i>
+									<i class="fa fa-television mr-2" data-toggle="tooltip" data-placement="bottom" title="Television"></i>
+									<i class="fa fa-thermometer-quarter mr-2" data-toggle="tooltip" data-placement="bottom" title="AC"></i>
+									<i class="fa fa-coffee mr-2" data-toggle="tooltip" data-placement="bottom" title="Coffe maker"></i>
+
+								</div>
+
+							</div>
+						</a>
+					</article>
+
+				</div>
+				<!-- Apartman Card STOP -->
+
+
+				<!-- Apartman Card START -->
+				<div class="col-sm-6 col-lg-3">
+					
+					<article class="o-deals_itemCard mt-4">
+						<a href="">
+							<div class="o-deals_itemCard_header d-flex justify-content-center">
+								<img class="w-100" src="http://via.placeholder.com/250x200" alt="">	
+								<div class="o-deals_itemCard_price rounded-top p-2 bg-lightblue">
+									<strong>For 544656 $</strong>
+								</div>
+
+							</div>
+
+							<div class="o-deals_itemCard_footer text-center bg-white">
+								<h1 class="p-3 c-title-sm">Apartment 1</h1>
+
+								<div class="o-deals_itemCard_info d-table w-100 text-center pb-2">
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Persons">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<br>
+										2-4			
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from the beach">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<br>
+										300m
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from town">
+										<i class="fa fa-bullseye" aria-hidden="true"></i>
+										<br>
+										2km	
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Ratings">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<br>
+										4.5		
+									</div>
+								</div>
+
+								<div class="o-deals_itemCard_moreInfo d-flex justify-content-center p-2">
+
+									<i class="fa fa-wifi mr-2" data-toggle="tooltip" data-placement="bottom" title="WI-FI"></i>
+									<i class="fa fa-car mr-2" data-toggle="tooltip" data-placement="bottom" title="Parking"></i>
+									<i class="fa fa-paw mr-2" data-toggle="tooltip" data-placement="bottom" title="Allowed pets"></i>
+									<i class="fa fa-shower mr-2" data-toggle="tooltip" data-placement="bottom" title="Bathroom"></i>
+									<i class="fa fa-television mr-2" data-toggle="tooltip" data-placement="bottom" title="Television"></i>
+									<i class="fa fa-thermometer-quarter mr-2" data-toggle="tooltip" data-placement="bottom" title="AC"></i>
+									<i class="fa fa-coffee mr-2" data-toggle="tooltip" data-placement="bottom" title="Coffe maker"></i>
+
+								</div>
+
+							</div>
+						</a>
+					</article>
+
+				</div>
+				<!-- Apartman Card STOP -->
+
+
+				<!-- Apartman Card START -->
+				<div class="col-sm-6 col-lg-3 hidden-sm-down">
+					
+					<article class="o-deals_itemCard mt-4">
+						<a href="">
+							<div class="o-deals_itemCard_header d-flex justify-content-center">
+								<img class="w-100" src="http://via.placeholder.com/250x200" alt="">	
+								<div class="o-deals_itemCard_price rounded-top p-2 bg-lightblue">
+									<strong>For 544656 $</strong>
+								</div>
+
+							</div>
+
+							<div class="o-deals_itemCard_footer text-center bg-white">
+								<h1 class="p-3 c-title-sm">Apartment 1</h1>
+
+								<div class="o-deals_itemCard_info d-table w-100 text-center pb-2">
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Persons">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<br>
+										2-4			
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from the beach">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<br>
+										300m
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from town">
+										<i class="fa fa-bullseye" aria-hidden="true"></i>
+										<br>
+										2km	
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Ratings">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<br>
+										4.5		
+									</div>
+								</div>
+
+								<div class="o-deals_itemCard_moreInfo d-flex justify-content-center p-2">
+
+									<i class="fa fa-wifi mr-2" data-toggle="tooltip" data-placement="bottom" title="WI-FI"></i>
+									<i class="fa fa-car mr-2" data-toggle="tooltip" data-placement="bottom" title="Parking"></i>
+									<i class="fa fa-paw mr-2" data-toggle="tooltip" data-placement="bottom" title="Allowed pets"></i>
+									<i class="fa fa-shower mr-2" data-toggle="tooltip" data-placement="bottom" title="Bathroom"></i>
+									<i class="fa fa-television mr-2" data-toggle="tooltip" data-placement="bottom" title="Television"></i>
+									<i class="fa fa-thermometer-quarter mr-2" data-toggle="tooltip" data-placement="bottom" title="AC"></i>
+									<i class="fa fa-coffee mr-2" data-toggle="tooltip" data-placement="bottom" title="Coffe maker"></i>
+
+								</div>
+
+							</div>
+						</a>
+					</article>
+
+				</div>
+				<!-- Apartman Card STOP -->
+
+
+			</div>
+
+
+			<div class="row hidden-md-down">
+
+				<!-- Apartman Card START -->
+				<div class="col-sm-6 col-lg-3">
+					
+					<article class="o-deals_itemCard mt-4">
+						<a href="">
+							<div class="o-deals_itemCard_header d-flex justify-content-center">
+								<img class="w-100" src="http://via.placeholder.com/250x200" alt="">	
+								<div class="o-deals_itemCard_price rounded-top p-2 bg-lightblue">
+									<strong>For 544656 $</strong>
+								</div>
+
+							</div>
+
+							<div class="o-deals_itemCard_footer text-center bg-white">
+								<h1 class="p-3 c-title-sm">Apartment 1</h1>
+
+								<div class="o-deals_itemCard_info d-table w-100 text-center pb-2">
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Persons">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<br>
+										2-4			
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from the beach">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<br>
+										300m
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from town">
+										<i class="fa fa-bullseye" aria-hidden="true"></i>
+										<br>
+										2km	
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Ratings">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<br>
+										4.5		
+									</div>
+								</div>
+
+								<div class="o-deals_itemCard_moreInfo d-flex justify-content-center p-2">
+
+									<i class="fa fa-wifi mr-2" data-toggle="tooltip" data-placement="bottom" title="WI-FI"></i>
+									<i class="fa fa-car mr-2" data-toggle="tooltip" data-placement="bottom" title="Parking"></i>
+									<i class="fa fa-paw mr-2" data-toggle="tooltip" data-placement="bottom" title="Allowed pets"></i>
+									<i class="fa fa-shower mr-2" data-toggle="tooltip" data-placement="bottom" title="Bathroom"></i>
+									<i class="fa fa-television mr-2" data-toggle="tooltip" data-placement="bottom" title="Television"></i>
+									<i class="fa fa-thermometer-quarter mr-2" data-toggle="tooltip" data-placement="bottom" title="AC"></i>
+									<i class="fa fa-coffee mr-2" data-toggle="tooltip" data-placement="bottom" title="Coffe maker"></i>
+
+								</div>
+
+							</div>
+						</a>
+					</article>
+
+				</div>
+				<!-- Apartman Card STOP -->
+
+
+				<!-- Apartman Card START -->
+				<div class="col-sm-6 col-lg-3">
+					
+					<article class="o-deals_itemCard mt-4">
+						<a href="">
+							<div class="o-deals_itemCard_header d-flex justify-content-center">
+								<img class="w-100" src="http://via.placeholder.com/250x200" alt="">	
+								<div class="o-deals_itemCard_price rounded-top p-2 bg-lightblue">
+									<strong>For 544656 $</strong>
+								</div>
+
+							</div>
+
+							<div class="o-deals_itemCard_footer text-center bg-white">
+								<h1 class="p-3 c-title-sm">Apartment 1</h1>
+
+								<div class="o-deals_itemCard_info d-table w-100 text-center pb-2">
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Persons">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<br>
+										2-4			
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from the beach">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<br>
+										300m
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from town">
+										<i class="fa fa-bullseye" aria-hidden="true"></i>
+										<br>
+										2km	
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Ratings">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<br>
+										4.5		
+									</div>
+								</div>
+
+								<div class="o-deals_itemCard_moreInfo d-flex justify-content-center p-2">
+
+									<i class="fa fa-wifi mr-2" data-toggle="tooltip" data-placement="bottom" title="WI-FI"></i>
+									<i class="fa fa-car mr-2" data-toggle="tooltip" data-placement="bottom" title="Parking"></i>
+									<i class="fa fa-paw mr-2" data-toggle="tooltip" data-placement="bottom" title="Allowed pets"></i>
+									<i class="fa fa-shower mr-2" data-toggle="tooltip" data-placement="bottom" title="Bathroom"></i>
+									<i class="fa fa-television mr-2" data-toggle="tooltip" data-placement="bottom" title="Television"></i>
+									<i class="fa fa-thermometer-quarter mr-2" data-toggle="tooltip" data-placement="bottom" title="AC"></i>
+									<i class="fa fa-coffee mr-2" data-toggle="tooltip" data-placement="bottom" title="Coffe maker"></i>
+
+								</div>
+
+							</div>
+						</a>
+					</article>
+
+				</div>
+				<!-- Apartman Card STOP -->
+
+
+				<!-- Apartman Card START -->
+				<div class="col-sm-6 col-lg-3">
+					
+					<article class="o-deals_itemCard mt-4">
+						<a href="">
+							<div class="o-deals_itemCard_header d-flex justify-content-center">
+								<img class="w-100" src="http://via.placeholder.com/250x200" alt="">	
+								<div class="o-deals_itemCard_price rounded-top p-2 bg-lightblue">
+									<strong>For 544656 $</strong>
+								</div>
+
+							</div>
+
+							<div class="o-deals_itemCard_footer text-center bg-white">
+								<h1 class="p-3 c-title-sm">Apartment 1</h1>
+
+								<div class="o-deals_itemCard_info d-table w-100 text-center pb-2">
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Persons">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<br>
+										2-4			
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from the beach">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<br>
+										300m
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from town">
+										<i class="fa fa-bullseye" aria-hidden="true"></i>
+										<br>
+										2km	
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Ratings">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<br>
+										4.5		
+									</div>
+								</div>
+
+								<div class="o-deals_itemCard_moreInfo d-flex justify-content-center p-2">
+
+									<i class="fa fa-wifi mr-2" data-toggle="tooltip" data-placement="bottom" title="WI-FI"></i>
+									<i class="fa fa-car mr-2" data-toggle="tooltip" data-placement="bottom" title="Parking"></i>
+									<i class="fa fa-paw mr-2" data-toggle="tooltip" data-placement="bottom" title="Allowed pets"></i>
+									<i class="fa fa-shower mr-2" data-toggle="tooltip" data-placement="bottom" title="Bathroom"></i>
+									<i class="fa fa-television mr-2" data-toggle="tooltip" data-placement="bottom" title="Television"></i>
+									<i class="fa fa-thermometer-quarter mr-2" data-toggle="tooltip" data-placement="bottom" title="AC"></i>
+									<i class="fa fa-coffee mr-2" data-toggle="tooltip" data-placement="bottom" title="Coffe maker"></i>
+
+								</div>
+
+							</div>
+						</a>
+					</article>
+
+				</div>
+				<!-- Apartman Card STOP -->
+
+
+				<!-- Apartman Card START -->
+				<div class="col-sm-6 col-lg-3">
+					
+					<article class="o-deals_itemCard mt-4">
+						<a href="">
+							<div class="o-deals_itemCard_header d-flex justify-content-center">
+								<img class="w-100" src="http://via.placeholder.com/250x200" alt="">	
+								<div class="o-deals_itemCard_price rounded-top p-2 bg-lightblue">
+									<strong>For 544656 $</strong>
+								</div>
+
+							</div>
+
+							<div class="o-deals_itemCard_footer text-center bg-white">
+								<h1 class="p-3 c-title-sm">Apartment 1</h1>
+
+								<div class="o-deals_itemCard_info d-table w-100 text-center pb-2">
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Persons">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<br>
+										2-4			
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from the beach">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<br>
+										300m
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Distance from town">
+										<i class="fa fa-bullseye" aria-hidden="true"></i>
+										<br>
+										2km	
+									</div>
+
+									<div class="o-deals_itemCard_infoCell d-table-cell" data-toggle="tooltip" data-placement="bottom" title="Ratings">
+										<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+										<br>
+										4.5		
+									</div>
+								</div>
+
+								<div class="o-deals_itemCard_moreInfo d-flex justify-content-center p-2">
+
+									<i class="fa fa-wifi mr-2" data-toggle="tooltip" data-placement="bottom" title="WI-FI"></i>
+									<i class="fa fa-car mr-2" data-toggle="tooltip" data-placement="bottom" title="Parking"></i>
+									<i class="fa fa-paw mr-2" data-toggle="tooltip" data-placement="bottom" title="Allowed pets"></i>
+									<i class="fa fa-shower mr-2" data-toggle="tooltip" data-placement="bottom" title="Bathroom"></i>
+									<i class="fa fa-television mr-2" data-toggle="tooltip" data-placement="bottom" title="Television"></i>
+									<i class="fa fa-thermometer-quarter mr-2" data-toggle="tooltip" data-placement="bottom" title="AC"></i>
+									<i class="fa fa-coffee mr-2" data-toggle="tooltip" data-placement="bottom" title="Coffe maker"></i>
+
+								</div>
+
+							</div>
+						</a>
+					</article>
+
+				</div>
+				<!-- Apartman Card STOP -->
+				
+			</div>
+			
+			<div class="row">
+				<div class="col mt-5 mb-3">
+					<button class="btn btn-primary d-block mx-auto">View all Hot Deals</button>
+				</div>
+			</div>		
+
+		</div>
+	</section>
+	
+	<section class="container-fluid bg-white pb-4">
+		<div class="row">
+			
+			<div class="col-lg-4 p-0">
+				<img class="w-100" src="http://via.placeholder.com/375x450">
+			</div>
+			
+			<div class="col-lg-8 p-5">
+				
+				<input class="o-welcome_check" type="checkbox" id="button">
+				<label class="o-welcome_more classic_link hidden-sm-up" for="button" onclick>Read more</label>
+
+				<div class="o-welcome_wrapper">
+
+					<h1>Welcome to the Island of Krk!</h1>	
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. <br><br> Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. <br><br> Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec.</p>
+					<div class="o-welcome_fader hidden-sm-up">
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<hr class="m-0">
+	<section class="bg-white">
+		<div class="container">
+
+			<div class="row py-5">
+				<div class="col-12">
+					<h1 class="text-center">Top destinations</h1>
+					<div id="lightgallery" class="d-flex justify-content-center flex-wrap text-center">
+						<article>
+							<a class="p-2" href="/media/swiper_slide1.jpg" data-lightbox="gallery">
+								<img class="o-gallery-item" src="../media/swiper_slide1.jpg" />
+								<h1 class="c-title-xs">Grad</h1>
+							</a>
+						</article>
+
+						<article>
+							<a class="p-2" href="/media/swiper_slide2.jpg" data-lightbox="gallery">
+								<img class="o-gallery-item" src="../media/swiper_slide2.jpg" />
+								<h1 class="c-title-xs">Grad</h1>
+							</a>
+						</article>
+
+						<article>
+							<a class="p-2" href="/media/gallery_item1.jpg" data-lightbox="gallery">
+								<img class="o-gallery-item" src="../media/gallery_item1.jpg" />
+								<h1 class="c-title-xs">Grad</h1>
+							</a>
+						</article>
+
+						<article>
+							<a class="p-2" href="/media/gallery_item2.jpg" data-lightbox="gallery">
+								<img class="o-gallery-item" src="../media/gallery_item2.jpg" />
+								<h1 class="c-title-xs">Grad</h1>
+							</a>
+						</article>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<hr class="m-0">
+	<section class="bg-white pt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h1>News</h1>
+				</div>
+			</div>
+			<div class="row pb-4">
+				<div class="col-sm-6">
+					<article>
+						<h1 class="c-title-xs"> Mauris rutrum luctus dolor, ut lobortis tellus porttitor sit amet.</h1>
+						<p>Ut sodales turpis turpis, eget vulputate nisi convallis vitae. Curabitur tincidunt sodales dui, eu dignissim diam. Nunc luctus augue turpis, in laoreet lacus fringilla in. Maecenas et arcu nibh. In tempor diam vitae diam porta, id faucibus sem vestibulum. Quisque aliquet sapien ligula, eu finibus lacus laoreet vel. 	<a class="classic_link" href="#">Read more</a> </p>
+					</article>	
+				</div>
+
+				<div class="col-sm-6">
+					<article>
+						<h1 class="c-title-xs"> Mauris rutrum luctus dolor, ut lobortis tellus porttitor sit amet.</h1>
+						<p>Ut sodales turpis turpis, eget vulputate nisi convallis vitae. Curabitur tincidunt sodales dui, eu dignissim diam. Nunc luctus augue turpis, in laoreet lacus fringilla in. Maecenas et arcu nibh. In tempor diam vitae diam porta, id faucibus sem vestibulum. Quisque aliquet sapien ligula, eu finibus lacus laoreet vel. <a class="classic_link" href="#">Read more</a></p>
+					</article>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<section class="col-lg-6 bg-graym">
+				<div class="container">
+					<div class="row">
+						<div class="col py-5 p-lg-5 text-center">
+
+							<h1>Get the inside scoop!</h1>
+							<p class="color-gray">Exclusive deals for our subscribers</p>
+							<form class="pt-2" action="">
+								<ul class="o-search_list d-flex flex-wrap my-2">
+
+									<li class="o-search_itemSubscribe">
+										<div class="form-group">
+											<label class="sr-only" for="email">Email</label>
+											<input id="email" class="form-control" type="text" placeholder="Your email..">
+										</div>
+									</li>
+
+									<li class="o-search_itemSubscribeBtn">
+										<div class="form-group">
+											<label class="sr-only" for="search">subscribe</label>
+											<button id="search" class="btn btn-primary btn-block" type="button">Subscribe</button>
+										</div>
+									</li>
+								</ul>
+							</form>
+
+						</div>
+					</div>
+
+
+				</div>
+			</section>
+
+			<section class="col-lg-6 bg-pinky">
+				<div class="container">
+					<div class="row">
+
+						<div class="col p-5 text-center">
+							<h1>Weather in Vrbnik</h1>
+							<div class="o-weather_container d-table align-middle w-100 pt-2">
+								<div class="d-table-cell align-middle o-weather_item">
+									<img class="o-weather_img" src="../media/sun.png" alt="">
+								</div>
+								<div class="d-table-cell o-weather_item text-left p-2 o-tbl_br">
+									<p class="m-0 color-gray">TODAY</p>
+									<p class="m-0">Sunny</p>
+									<p class="m-0">17°</p>
+								</div>
+								<div class="d-table-cell o-weather_item text-left px-5 hidden-sm-down">
+									<p class="m-0 color-gray">TOMORROW</p>
+									<p class="m-0">Sunny</p>
+									<p class="m-0">17°</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</secton>
+
+		</div>
+	</div>
+
 </main>
 
 <footer>
-	Footer
+	<div class="bg-blue py-md-5 sm-text-center">
+		<div class="container color-white">
+			<div class="row pt-5">
+				<div class="col-md-8 bb">
+
+					<section class="d-flex flex-wrap o-tbl_br">
+						<div class="p-2 sm-w-100">
+							<h1 class="c-title-xsf">Mare Tours</h1>
+							<p class="m-0">Pojana 4</p>
+							<p class="m-0">51516</p>
+							<p class="m-0">Croatia</p>
+						</div>
+
+						<div class="p-2 pb-5 sm-w-100 info">
+							<p class="m-0 footer-info" data-after="+123 51 604 604">Tel:</p>
+							<p class="m-0 footer-info" data-after="+123 51 604 604">Fax:</p>
+							<p class="m-0 footer-info" data-after="+123 51 604 604">Mobile:</p>
+							<a href="mailto:info@mail.com"><p class="m-0 footer-info" data-after="info@mail.com">eMail:</p></a>
+						</div>
+
+					</section>
+
+				</div>
+
+				<div class="col-md-4 bb">
+					<ul>
+						<li><a href="">About us</a></li>
+						<li><a href="">Contact us</a></li>
+						<li><a href="">Careers</a></li>
+					</ul>	
+				</div>
+
+			</div>
+
+
+			<div class="row">
+				<div class="col-md-10 bb">
+					
+					<ul class="display-inline-then-block float-left py-3">
+						<li class="display-inline-then-block"><a href="">Privacy Policy</a></li>
+						<li class="display-inline-then-block "><a href="">Terms & Conditions </a></li>
+						<li class="display-inline-then-block"><a href="">Booking Conditions </a></li>
+						<li class="display-inline-then-block"><a href="">Cookie Policy</a></li>
+					</ul>
+
+				</div>
+
+				<div class="col-md-2 p-3 bb">
+					<div class="d-flex justify-content-center">
+						<a href=""><img class="footer_icon" src="../media/facebook_icon.png" alt=""></a>
+						<a href=""><img class="footer_icon ml-2" src="../media/twitter_icon.gif" alt=""></a>
+					</div>	
+				</div>
+			</div>
+
+			<div class="row py-5 pb-md-0 text-center">
+				<div class="col">
+					<p class="color-gray2">Copyright &copy; 2015 Mare Tours</p>
+					<h2 class="color-gray2">HEXIS</h2>
+				</div>
+
+			</div>
+		</div>
+	</div>
 </footer>
 
 
 
+	<script src="../js/build/main.js" type="text/javascript" charset="utf-8"></script>
+	
 </body>
 </html>

@@ -1,0 +1,35 @@
+.bgc-brightgray {	
+	background-color: $brightgray;
+
+	@include md-down {
+		background-color: $white;
+	}
+}
+.bgc-white {	
+	background-color: $white;
+}
+
+.bg-lightblue {
+	background-color: $lightblue;
+}
+
+.bg-lightblue2 {
+	background-color: $lightblue2;
+}
+
+.bg-white {
+	background-color: $white;
+
+}
+
+.bg-pinky {
+	background-color: $pinky;
+}
+
+.bg-graym {
+	background-color: $graym;
+}
+
+.bg-blue {
+	background-color: $blue;
+}

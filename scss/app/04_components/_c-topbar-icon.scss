@@ -1,0 +1,11 @@
+.c-topbar-icon {
+	width: 18px;
+	height: 17px;
+
+	@include md-down {
+		width: 25px;
+		height: 24px;
+		vertical-align: middle;
+	}
+	
+}

@@ -1,0 +1,10 @@
+.o-gallery {
+	&-item {
+		width: 200px;
+		height: 150px;
+		@include md-down {
+			width:300px;
+			height: 200px;
+		}
+	}
+}
